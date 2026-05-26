@@ -1,0 +1,16 @@
+title: Collector's Edition
+description: Privacy Policy for Collector's Edition iOS app
+url: "https://collectorsedition.app"
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
