@@ -37,10 +37,11 @@ Bunu net söylemek istiyoruz, çünkü çoğu uygulama bunu görmeyi zorlaştır
 - Adınız, e-postanız, telefon numaranız veya iletişim bilgileriniz
 - Konumunuz
 - Reklam tanımlayıcıları
-- Kişisel kullanım analitiği, davranış verisi veya size bağlı çökme raporları
+- Kişisel kullanım analitiği veya davranış verisi
+- Kimliğinize bağlı çökme raporları (yalnızca anonim çökme teşhis verisi toplarız — aşağıya bakın)
 - Tarama veya arama geçmişi
 
-Uygulamada reklam ağı, analitik SDK (Firebase, Mixpanel, Amplitude vb.), sosyal medya girişi veya izleme pikseli **yoktur.** Eklemeyi de planlamıyoruz.
+Uygulamada reklam ağı, davranışsal analitik SDK (Firebase, Mixpanel, Amplitude vb.), sosyal medya girişi veya izleme pikseli **yoktur.** Uygulama çöktüğünde anonim teknik teşhis verisi toplamak için tek bir çökme-raporlama aracı (Sentry) kullanırız — aşağıda açıklanmıştır ve kişisel tanımlayıcıları dışlayacak şekilde yapılandırılmıştır.
 
 ## Üçüncü Taraf Hizmetler
 
@@ -48,6 +49,7 @@ Uygulamada reklam ağı, analitik SDK (Firebase, Mixpanel, Amplitude vb.), sosya
 |---|---|---|
 | Apple iCloud (CloudKit) | Koleksiyonunuzu özel iCloud hesabınız üzerinden cihazlar arasında senkronize eder | [apple.com/tr/legal/privacy](https://www.apple.com/tr/legal/privacy/) |
 | RevenueCat | Abonelik durumunu yönetir | [revenuecat.com/privacy](https://www.revenuecat.com/privacy/) |
+| Sentry | Kararlılık sorunlarını düzeltebilmemiz için anonim çökme teşhis verisi toplar (çökme kayıtları, cihaz modeli, işletim sistemi ve uygulama sürümü) — kişisel tanımlayıcı yok, izleme yok, AB'de barındırılır | [sentry.io/privacy](https://sentry.io/privacy/) |
 | Apple App Store | Ödemeleri işler | Tamamen Apple yönetir |
 
 ## Gelecek Özellikler (eBay Fiyat Sorgulama)
