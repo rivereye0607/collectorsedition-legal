@@ -37,10 +37,11 @@ We want to be specific about this, because most apps don't make it easy to tell.
 - Your name, email, phone number, or any contact information
 - Your location
 - Advertising identifiers
-- Usage analytics, behavioral data, or crash reports tied to you
+- Usage analytics or behavioral data
+- Crash reports tied to your identity (we collect only anonymous crash diagnostics — see below)
 - Browsing or search history
 
-The app contains no advertising networks, no analytics SDKs (Firebase, Mixpanel, Amplitude, or similar), no social login, and no tracking pixels. We have no plans to add any.
+The app contains no advertising networks, no behavioral analytics SDKs (Firebase, Mixpanel, Amplitude, or similar), no social login, and no tracking pixels. We use one crash-reporting tool (Sentry) to capture anonymous technical diagnostics when the app crashes — this is described below and is configured to exclude any personal identifiers.
 
 ## Third-Party Services
 
@@ -48,6 +49,7 @@ The app contains no advertising networks, no analytics SDKs (Firebase, Mixpanel,
 |---|---|---|
 | Apple iCloud (CloudKit) | Syncs your collection across your devices through your private iCloud account | [apple.com/legal/privacy](https://www.apple.com/legal/privacy/) |
 | RevenueCat | Manages subscription state | [revenuecat.com/privacy](https://www.revenuecat.com/privacy/) |
+| Sentry | Captures anonymous crash diagnostics (crash logs, device model, OS and app version) so we can fix stability issues — no personal identifiers, no tracking, EU-hosted | [sentry.io/privacy](https://sentry.io/privacy/) |
 | Apple App Store | Processes payments | Handled entirely by Apple |
 
 ## Future Features (eBay Price Lookup)
