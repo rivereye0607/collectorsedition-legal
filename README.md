@@ -23,3 +23,4 @@ Hosted on GitHub Pages with custom domain via Cloudflare.
 ---
 
 App repo (private): `rivereye0607/CollectorsEdition`
+
