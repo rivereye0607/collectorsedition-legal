@@ -6,7 +6,7 @@ permalink: /privacy-tr/
 
 # Gizlilik Politikası
 
-**Yürürlük Tarihi:** [LAUNCH GÜNÜ DOLDURULACAK]
+**Yürürlük Tarihi:** 24 Temmuz 2026
 
 ## Giriş
 
