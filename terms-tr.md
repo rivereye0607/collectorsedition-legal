@@ -6,7 +6,7 @@ permalink: /terms-tr/
 
 # Kullanım Şartları
 
-**Yürürlük Tarihi:** [LAUNCH GÜNÜ DOLDURULACAK]
+**Yürürlük Tarihi:** 24 Temmuz 2026
 
 ## Sözleşme
 
