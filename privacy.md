@@ -6,7 +6,7 @@ permalink: /privacy/
 
 # Privacy Policy
 
-**Effective Date:** [TO BE FILLED ON LAUNCH DATE]
+**Effective Date:** July 24, 2026
 
 ## Introduction
 
